@@ -38,19 +38,6 @@ nav{
     margin: 15px 15px; 
 }
 
-/* Test Media Query */
-
-@media (max-width: 770px) {
-    .nav-left {
-        justify-content: flex-start; /* Start alignment to reduce space */
-        margin-left: 10px;
-    }
-    .nav-icon {
-       
-        margin-left:100px;
-    }
-}
-
 
 
 
