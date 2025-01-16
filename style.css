@@ -2,9 +2,55 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Vesper Libre", serif;
+
+}
+body{
+   
+    background-color: #777777;
 }
 header{
     width: 100%;
     height: 86px;
     background: #FFFFFF;
+    
 }
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+.nav-left{
+    margin-left:  25px;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    margin: 0 auto; 
+    padding: 0;     
+}
+
+.nav-icon { 
+    margin: 15px 15px; 
+}
+
+/* Test Media Query */
+
+@media (max-width: 770px) {
+    .nav-left {
+        justify-content: flex-start; /* Start alignment to reduce space */
+        margin-left: 10px;
+    }
+    .nav-icon {
+       
+        margin-left:100px;
+    }
+}
+
+
+
+
